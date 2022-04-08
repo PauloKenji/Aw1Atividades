@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Página pessoal</title>
+    </head>
+    <body>
+        <center>
+            <nav>
+                <h1>Menu</h1>
+                <a href="#SobreMim">Sobre mim</a> |
+                <a href="#ImagemMapeada">Imagem mapeada</a> |
+                <a href="#Video">Vídeo</a> |
+                <a href="#Audio">Áudio</a> |
+                <a href="#TesteTabela">Teste de tabela</a>
+            </nav>
+            <h2 id="SobreMim">Sobre mim</h2>
+            <p> Meu nome é Paulo Kenji, 17 anos, e testando recursos html</p>
+            <h2 id="ImagemMapeada">Imagem mapeada</h2>
+            <p>(clicar no Sol ou na montanha)</p>
+            <img src="src/paisagem.jpg" alt="Banner Paisagem" usemap="#Lofi" width="1280" height="268" >
+            <map name="Lofi">
+                <area shape="poly" coords="1 , 185 ,38 , 198 ,109 , 168 ,226 , 
+                174 ,319 , 195 ,328 , 184 ,443 , 132 ,544 , 131 ,563 , 144 ,600 , 
+                143 ,723 , 65 ,852 , 125 ,866 , 118 ,1088 , 171 ,1167 , 208 ,1174 , 
+                197 ,1225 , 178 ,1278 , 185 ,1279 , 267 ,0 , 266 ,0 , 188" alt="Sol" 
+                href="https://pt.wikipedia.org/wiki/Montanha" target="_blank">
+                <area shape="poly" coords="510 , 136 ,533 , 81 ,575 , 38 ,634 , 12 ,696 , 14 ,752 , 35 ,797 , 74 ,814 , 112 ,722 , 66 ,691 , 94 ,631   116
+                631 , 116 ,605 , 136 ,570 , 139 ,552 , 130 ,514 , 132" alt = "montanha" href="https://pt.wikipedia.org/wiki/Sol" target="_blank">
+            </map>  
+            <h2 id="Video">Vídeo</h2>
+            <video width="400" controls>
+                <source src="src/Voadora.mp4" type="video/mp4">
+            </video>
+            <h2 id="Audio">Áudio</h2>
+            <audio controls>
+                <source src="src/Kaiba Song.mp3">
+            </audio>
+            <h2 id="TesteTabela">Teste de tabela</h2>
+           
+            <table>
+                <tr>
+                    <th></th>
+                    <th scope="col" >Coluna 1</th>
+                    <th scope="col" >Coluna 2</th>
+                </tr>
+                <tr>
+                    <th scope="row">Linha 1</th>
+                    <td>campo 1</td>        
+                    <td>campo 2</td>      
+                </tr>
+                <tr>
+                    <th scope="row">Linha 2 </th>
+                    <td>campo 3</td>        
+                    <td>campo 4</td>    
+                </tr>
+            </table>
+        </center>
+            
+        </body>
+</html>
