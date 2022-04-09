@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inputs</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Indentificação do Usuario</legend>
+            <label>Nome: </label>
+            <input type="text" name="Nome" id="Nome_Id" required>
+            <label>Senha: </label>
+            <input type="password" name="Senha" id="Senha_Id"required>
+            <label>CPF: </label>
+            <input type="Text" name="CPF" id="CPF_Id" required>
+            <label for="Sexo_Id"> Sexo: </label>
+            <select name="Sexo" id="Sexo_Id" required>
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+            </select>
+            <p>
+                <label for="DataNacimento_Id">Data de nascimento: </label>
+                <input type="Date" name="DataNascimento" id="DataNacimento_Id" required>
+                <label for="EstadoCivil_Id">Estado Civil: </label>
+                <input type="Text" name="EstadoCivil" id="EstadoCivil_Id" required>
+                <label for="Escolaridade_Id">Escolaridade: </label>
+                <input type="text" name="Escolaridade" id="Escolaridade_Id">
+                <label for="OcupaçãoPrincipal_Id">Ocupação principal: </label>
+                <input type="text" name="OcupaçãoPrincipal" id="OcupaçãoPrincipal_Id">
+            </p>
+            <p>
+                <label for="RendaMensal_Id">Renda Mensal: </label>
+                <input type="number" name="RendaMensal" id="RendaMensal_Id">
+                <label for="NumeroDependentes_Id">Número de dependetes: </label>
+                <input type="number" name="NumeroDependentes" id="NumeroDependentes_Id">
+                <label for="Telefone_Id">Telefone: </label>
+                <input type="tel" name="Telefone" id="Telefone_Id" required>
+                <label for="Email_Id">Email: </label>
+                <input type="email" name="Email" id="Email_Id" required>
+            </p>
+            
+        </fieldset>   
+        <fieldset>
+            <legend>Localização</legend>
+            <label for="Estado_Id">Estado: </label>
+            <select name="Estado" id="Estado_Id" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>          
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option> 
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>  
+                <option value="TO">Tocantins</option>            
+            </select>
+            <label for="Cidade_Id">Cidade: </label>
+            <input type="text" name="Cidade" id="Cidade_Id" required>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem do Usuário</legend>
+            <label for="GrauUrgencia_Id">Grau de Urgencia: </label>
+            <input type="number" name="GrauUrgencia" id="GrauUrgencia_Id">
+            <p><label for="Mensagem_Id">Mensagem: </label>
+            <textarea name="Mensagem" id="Mensagem_Id" maxlength="500" required></textarea>
+            <p><label for="reportButtom_Id">Reportar erro: </label>
+            <input type="file" name="reportButtom" id="ReportButtom_Id"></p></p>
+        </fieldset>
+        <input type="button" name="Enviar" value="Enviar">
+        <input type="button" name="Limpar" value="Limpar">
+    </form>
+</body>
+</html>
