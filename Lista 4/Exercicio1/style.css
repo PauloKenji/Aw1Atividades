@@ -1,0 +1,7 @@
+div p+p{
+    color: #6495ED;
+}
+
+p+h4{
+    color: #DC143C;
+}

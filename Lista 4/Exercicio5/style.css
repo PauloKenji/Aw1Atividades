@@ -1,0 +1,47 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}   
+
+caption{
+    color: green;
+    background-color: yellow;
+}
+
+table,th,td{
+    border: 1px solid green;   
+    margin: auto;
+}
+
+table{
+    table-layout: fixed;
+    width: 89%;
+    border-collapse: collapse;  
+    outline: 3px solid green; 
+    background-image: linear-gradient(white,#aef0ae,#90ee90);  
+}
+
+th{
+    text-align: center;   
+}
+
+td{
+    text-align: left;
+}
+
+td:nth-child(2){
+    text-align: center;
+}
+
+td:nth-child(3){
+    text-align: right;
+}
+
+tr:not(.Header):hover{
+    color: green;
+    background-color: yellow;
+}
+
+td img{
+    height: 15px;
+}

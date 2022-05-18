@@ -1,0 +1,19 @@
+.stl1:hover{
+    color: brown;
+}
+
+.stl2:hover{
+    font-size: 30px;
+}
+
+.stl3:hover{
+    background-color: brown;
+}
+
+.stl4:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stl5:hover{
+    border: 2px solid brown;
+}
