@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.tabela{
+    margin-top: 2rem;
+}
+
+td{
+    background-color: aliceblue;
+}
+
+td:first-child{
+    font-weight:400;
+}
