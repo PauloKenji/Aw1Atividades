@@ -42,15 +42,33 @@ p{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     margin-top: 1rem;
-    overflow: scroll;
+    overflow-y: scroll;
     height: 15rem;
     width: 40rem;
     top: 50%;
     left: 50%;
-    transform: translate(50%, 140%);
+    transform: translate(55%, 140%);
 
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 /* .container{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
