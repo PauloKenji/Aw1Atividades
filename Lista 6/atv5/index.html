@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Programa Cálculo do Peso Ideal</h1>
+        <hr>
+        <div class="inputs">
+            <p>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+            </p>            
+            <p>
+                Sexo:
+
+                <input type="radio" name="sexo" value=1 id="masculino">
+                <label for="sexo">Masculino</label>
+                
+                <input type="radio" name="sexo" value=2 id="feminino">
+                <label for="sexo">Feminino</label>
+            </p>
+            <p>
+                <label for="altura">Altura: </label>
+                <input type="text" name="altura" id="altura">
+            </p>
+            <p>                
+                <input type="button" id="submit" value="Calcular peso ideal">
+                <input type="button" id="clear" value="Limpar campos">
+            </p>
+        </div>
+        <hr>
+        <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
